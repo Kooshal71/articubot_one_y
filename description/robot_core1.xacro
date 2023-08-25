@@ -19,9 +19,9 @@
         <color rgba="0 0 0 1"/>
     </material>
     
-    <material name="red">
+    <!-- <material name="red">
         <color rgba="1 0 0 1"/>
-    </material>
+    </material> -->
     
     <!-- BASE LINK -->
 
@@ -49,7 +49,7 @@
                 <box size="0.33 0.25 0.15"/>
             </geometry>
         </collision>
-        <xacro:inertial_box mass="3" x="0.33" y="0.24" z="0.15">
+        <xacro:inertial_box mass="0.1" x="0.33" y="0.24" z="0.15">
             <origin xyz="0.165 0 0.075" rpy="0 0 0"/>
         </xacro:inertial_box>
     </link>
@@ -149,8 +149,6 @@
 
     <gazebo reference="caster_wheel">
         <material>Gazebo/Black</material>
-        <mu1 value="0.001"/>
-        <mu2 value="0.001"/>
     </gazebo>
 
 </robot>
