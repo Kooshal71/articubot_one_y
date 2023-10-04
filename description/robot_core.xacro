@@ -51,7 +51,7 @@
     
     <link name="chassis">
         <visual>
-        	<origin xyz="0.165 0 0.075"/>
+        <origin xyz="0.165 0 0.075"/>
             <geometry>
                 <box size="0.33 0.25 0.15"/>
             </geometry>
@@ -168,3 +168,4 @@
     </gazebo>
 
 </robot>
+
